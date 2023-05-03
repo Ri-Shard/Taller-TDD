@@ -1,5 +1,7 @@
 from main import *
 
 def test_hello_test():
-    assert hell()=='{"message": "Hello FastAPI"}'
-    # Olvide nombrar el commit
+    assert hello()=='Hello FastAPI'
+
+def test_isPrime_test():
+    assert is_prime(2)==True
