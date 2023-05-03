@@ -5,3 +5,6 @@ def test_hello_test():
 
 def test_isPrime_test():
     assert is_prime(2)==True
+
+def test_fibonacci_test():
+    assert fibonacci(1)==1
